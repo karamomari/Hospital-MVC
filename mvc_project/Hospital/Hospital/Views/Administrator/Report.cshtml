@@ -1,0 +1,82 @@
+﻿ @model Tuple<IEnumerable<employeesdepartmentsjoin> , IEnumerable<Hospital.Models.Employee>>; 
+
+@{
+    Layout = "~/Views/Shared/Admin/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Report</title>
+    <link rel="shortcut icon" type="image/png" href="~/Admin/assets/images/logos/favicon.png" />
+    <link rel="stylesheet" href="~/Admin/assets/css/styles.min.css" />
+</head>
+<body>
+  <h1>Employoee</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                   name
+            </th>
+            <th>
+               Email
+            </th>
+            <th>
+                Departmint
+            </th>
+            <th>
+                Shift
+            </th>
+
+        <th>
+            Joptype
+        </th>
+
+        </tr>
+    </thead>
+        <div class="container-fluid">
+            <div class="card">
+                <div class="card-body">
+    <tbody>
+            @foreach (var item in Model.Item2)
+            {
+        <tr>
+            <td>
+                        @Html.DisplayFor(modelItem => item.Fname )
+                        @Html.DisplayFor(modelItem => item.Lname)
+
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+               @Html.DisplayFor(modelItem => item.Dep.Name)
+
+            </td>
+             <td>
+               @Html.DisplayFor(modelItem => item.ShiftWork)
+
+             </td>
+             <td>
+               @Html.DisplayFor(modelItem => item.JopType)
+
+             </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>
+</div>
+</div>
+
+    <h1>late</h1>
+    
+</body>
+</html>
+
+
+
+

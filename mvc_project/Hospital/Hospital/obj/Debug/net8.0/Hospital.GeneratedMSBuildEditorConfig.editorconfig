@@ -1,0 +1,179 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Hospital
+build_property.RootNamespace = Hospital
+build_property.ProjectDir = C:\Users\karam\OneDrive\Desktop\projects\mvc\mvc_project\Hospital\Hospital\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\karam\OneDrive\Desktop\projects\mvc\mvc_project\Hospital\Hospital
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Administrator/Editdepart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxFZGl0ZGVwYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Administrator/employee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxlbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Administrator/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Administrator/Patientt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxQYXRpZW50dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Administrator/Report.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxSZXBvcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Administrator/SearchEmp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxTZWFyY2hFbXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Administrator/SearchEmpp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxTZWFyY2hFbXBwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Administrator/Searchpat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxTZWFyY2hwYXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Administrator/Searchpatt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxTZWFyY2hwYXR0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Employee/AddPat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQWRkUGF0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Employee/addrec.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcYWRkcmVjLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Employee/Doctor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRG9jdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Employee/Editappointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdGFwcG9pbnRtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Employee/Nurse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcTnVyc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Employee/Receptionist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUmVjZXB0aW9uaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Employee/updatetreatment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcdXBkYXRldHJlYXRtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Employee/viewrecord.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcdmlld3JlY29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Employee/viewrecorviewapp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcdmlld3JlY29ydmlld2FwcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Home/Appointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBcHBvaW50bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Home/notfaound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxub3RmYW91bmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Home/visitor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx2aXNpdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Login/notfaound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cbm90ZmFvdW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Login/registerpation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5ccmVnaXN0ZXJwYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Login/Waitadmid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cV2FpdGFkbWlkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Patient/Communicate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxDb21tdW5pY2F0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Patient/Editapp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxFZGl0YXBwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Patient/Patient.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxQYXRpZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Patient/viewappo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFx2aWV3YXBwby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Patient/viewrecord_topa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFx2aWV3cmVjb3JkX3RvcGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Shared/Admin/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFkbWluXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Shared/Home/footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhvbWVcZm9vdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Shared/Home/navandfooter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhvbWVcbmF2YW5kZm9vdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/karam/OneDrive/Desktop/projects/mvc/mvc_project/Hospital/Hospital/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-j6i1r8qj4i

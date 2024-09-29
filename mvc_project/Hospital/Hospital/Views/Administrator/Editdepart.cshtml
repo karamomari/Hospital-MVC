@@ -1,0 +1,65 @@
+﻿@model Hospital.Models.Employee
+
+@{
+    Layout = "~/Views/Shared/Admin/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Editdepart</title>
+    <link rel="shortcut icon" type="image/png" href="~/Admin/assets/images/logos/favicon.png" />
+    <link rel="stylesheet" href="~/Admin/assets/css/styles.min.css" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="card">
+            <div class="card-body">
+    <form asp-action="Editdepart">
+<h3>Are you sure you want to edit this?</h3>
+<div>
+    <h4>Employee</h4>
+    <hr />
+    <dl class="row">
+ 
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Salary)
+        </dt>
+        <dd class = "col-sm-10">
+                <input type="text" name="Salary" value="" />
+        </dd>
+        
+       
+       
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ShiftWork)
+        </dt>
+        <dd class = "col-sm-10">
+                <input type="text" name="ShiftWork" value="" />
+          
+        </dd>
+        
+    
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Dep)
+        </dt>
+        <dd class = "col-sm-10">
+                <input type="text" name="DepId" value="" />
+        </dd>
+  
+    </dl>
+    
+ 
+        <input type="hidden" asp-for="EmpId" />
+        <input type="submit"  value="Edite" class="btn btn-danger" /> |
+            <a asp-action="employee">Back to List</a>
+    </form>
+    </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SearchEmp</title>
+    <link rel="shortcut icon" type="image/png" href="~/Admin/assets/images/logos/favicon.png" />
+    <link rel="stylesheet" href="~/Admin/assets/css/styles.min.css" />
+</head>
+<body>
+
+<link rel="shortcut icon" type="image/png" href="~/Admin/assets/images/logos/favicon.png" />
+<link rel="stylesheet" href="~/Admin/assets/css/styles.min.css" />
+@* <img src="@Url.Content("~/imge_treatment_plans"+ item.Image)" asp-append-version="true" width="200px" height="200px" /> *@
+<form asp-action="updatetreatment" enctype="multipart/form-data">
+<input type="file" name="ImageFile" class="form-control" />
+<input type="submit"  value="update_nonnn" />
+</form>
+</body>
+</html>

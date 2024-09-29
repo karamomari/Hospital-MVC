@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Hospital.Models.Appointment>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>viewrecorviewappointmentd</title>
+</head>
+<body>
+<p>
+ 
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pat)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pat.PatId)
+            </td>
+            <td>
+                        <a class="btn btn-dark" asp-action="Editappointment" asp-route-id="@item.AppId">Edit</a> |
+                        <a class="btn btn-dark" asp-action="Deleteappointment" asp-route-id="@item.AppId">Delete</a>
+                        <a class="btn btn-dark" asp-action="Doctor" asp-route-id="@item.AppId">Reload</a>
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>
+</html>

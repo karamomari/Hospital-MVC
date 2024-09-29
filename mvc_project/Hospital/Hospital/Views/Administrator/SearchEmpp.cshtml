@@ -1,0 +1,99 @@
+﻿@model IEnumerable<Hospital.Models.Employee>
+
+@{
+    Layout = "~/Views/Shared/Admin/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SearchEmp</title>
+    <link rel="shortcut icon" type="image/png" href="~/Admin/assets/images/logos/favicon.png" />
+    <link rel="stylesheet" href="~/Admin/assets/css/styles.min.css" />
+</head>
+<body>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Fname)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Lname)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Salary)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Address)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Passward)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ShiftWork)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.JopType)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Enaple)
+                </th>
+             
+                <th></th>
+            </tr>
+        </thead>
+        <div class="container-fluid">
+            <div class="card ">
+                <div class="card-body">
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Fname)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Lname)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Salary)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Address)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Passward)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ShiftWork)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.JopType)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Enaple)
+                    </td>
+               
+                    <td>
+
+                        <a asp-action="rejectempl" class="btn btn-primary" asp-route-id="@item.EmpId">Disable Account</a> |
+                        <a asp-action="rejectempl" class="btn btn-primary" asp-route-id="@item.EmpId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+        </div>
+        </div>
+        </div>
+    </table>
+</body>
+</html>

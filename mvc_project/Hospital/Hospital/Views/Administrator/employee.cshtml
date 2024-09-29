@@ -1,0 +1,111 @@
+﻿@model IEnumerable<Hospital.Models.Employee>
+
+@{
+    Layout = "~/Views/Shared/Admin/_Layout.cshtml";
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>employee</title>
+    <link rel="shortcut icon" type="image/png" href="~/Admin/assets/images/logos/favicon.png" />
+    <link rel="stylesheet" href="~/Admin/assets/css/styles.min.css" />
+</head>
+<body>
+<p>
+@*     <a asp-action="Create">Create New</a> *@
+</p>
+    <div class="container-fluid">
+        <div class="card">
+            <div class="card-body">
+           
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Fname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Lname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Salary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Passward)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ShiftWork)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JopType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Enaple)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dep)
+            </th>
+       
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Lname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Passward)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ShiftWork)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.JopType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Enaple)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dep.DepId)
+            </td>
+         
+            <td>
+                 <a asp-action="Editdepart" class="btn btn-primary" asp-route-id="@item.EmpId">Edit info</a> |
+                    <a class="btn btn-success" asp-action="consentempl" asp-route-id="@item.EmpId">consent</a> |
+                    <a class="btn btn-danger" asp-action="rejectempl" asp-route-id="@item.EmpId">reject</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

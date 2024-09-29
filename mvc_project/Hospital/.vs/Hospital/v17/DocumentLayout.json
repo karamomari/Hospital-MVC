@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\karam\\OneDrive\\Desktop\\projects\\mvc\\mvc_project\\Hospital\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{903F560D-E235-43C4-93A1-1B5AED528D2B}|Hospital\\Hospital.csproj|c:\\users\\karam\\onedrive\\desktop\\projects\\mvc\\mvc_project\\hospital\\hospital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{903F560D-E235-43C4-93A1-1B5AED528D2B}|Hospital\\Hospital.csproj|solutionrelative:hospital\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{903F560D-E235-43C4-93A1-1B5AED528D2B}|Hospital\\Hospital.csproj|c:\\users\\karam\\onedrive\\desktop\\projects\\mvc\\mvc_project\\hospital\\hospital\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{903F560D-E235-43C4-93A1-1B5AED528D2B}|Hospital\\Hospital.csproj|solutionrelative:hospital\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{903F560D-E235-43C4-93A1-1B5AED528D2B}|Hospital\\Hospital.csproj|c:\\users\\karam\\onedrive\\desktop\\projects\\mvc\\mvc_project\\hospital\\hospital\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{903F560D-E235-43C4-93A1-1B5AED528D2B}|Hospital\\Hospital.csproj|solutionrelative:hospital\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{903F560D-E235-43C4-93A1-1B5AED528D2B}|Hospital\\Hospital.csproj|c:\\users\\karam\\onedrive\\desktop\\projects\\mvc\\mvc_project\\hospital\\hospital\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{903F560D-E235-43C4-93A1-1B5AED528D2B}|Hospital\\Hospital.csproj|solutionrelative:hospital\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{903F560D-E235-43C4-93A1-1B5AED528D2B}|Hospital\\Hospital.csproj|c:\\users\\karam\\onedrive\\desktop\\projects\\mvc\\mvc_project\\hospital\\hospital\\wwwroot\\login\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{903F560D-E235-43C4-93A1-1B5AED528D2B}|Hospital\\Hospital.csproj|solutionrelative:hospital\\wwwroot\\login\\stylesheet.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\karam\\OneDrive\\Desktop\\projects\\mvc\\mvc_project\\Hospital\\Hospital\\Program.cs",
+              "RelativeDocumentMoniker": "Hospital\\Program.cs",
+              "ToolTip": "C:\\Users\\karam\\OneDrive\\Desktop\\projects\\mvc\\mvc_project\\Hospital\\Hospital\\Program.cs",
+              "RelativeToolTip": "Hospital\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T23:20:40.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\karam\\OneDrive\\Desktop\\projects\\mvc\\mvc_project\\Hospital\\Hospital\\appsettings.json",
+              "RelativeDocumentMoniker": "Hospital\\appsettings.json",
+              "ToolTip": "C:\\Users\\karam\\OneDrive\\Desktop\\projects\\mvc\\mvc_project\\Hospital\\Hospital\\appsettings.json",
+              "RelativeToolTip": "Hospital\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-12T23:19:30.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\karam\\OneDrive\\Desktop\\projects\\mvc\\mvc_project\\Hospital\\Hospital\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Hospital\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\karam\\OneDrive\\Desktop\\projects\\mvc\\mvc_project\\Hospital\\Hospital\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Hospital\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T23:04:27.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StyleSheet.css",
+              "DocumentMoniker": "C:\\Users\\karam\\OneDrive\\Desktop\\projects\\mvc\\mvc_project\\Hospital\\Hospital\\wwwroot\\Login\\StyleSheet.css",
+              "RelativeDocumentMoniker": "Hospital\\wwwroot\\Login\\StyleSheet.css",
+              "ToolTip": "C:\\Users\\karam\\OneDrive\\Desktop\\projects\\mvc\\mvc_project\\Hospital\\Hospital\\wwwroot\\Login\\StyleSheet.css",
+              "RelativeToolTip": "Hospital\\wwwroot\\Login\\StyleSheet.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-25T22:55:33.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\karam\\OneDrive\\Desktop\\projects\\mvc\\mvc_project\\Hospital\\Hospital\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Hospital\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\karam\\OneDrive\\Desktop\\projects\\mvc\\mvc_project\\Hospital\\Hospital\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Hospital\\Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-25T22:13:26.926Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

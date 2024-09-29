@@ -1,0 +1,59 @@
+
+header{z-index: 1; position:sticky; top:1% }
+main #homepage{
+    background: url("~/Doctor/img/photo.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+main #homepage div{
+    border-color:transparent ;
+   
+}
+.projectes img:hover{
+    animation: zoom 1s ;
+}
+
+@keyframes zoom {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.15, 1.15);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
+  @keyframes loaded{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    }
+    
+    .pageload{
+    animation-name: loaded;
+    animation-duration: 6s;
+    animation-delay: 0.1s;
+    }
+
+
+#buthid{display:none;}
+
+
+
+
+    @media (max-width:450px){
+        
+
+  #buthid{display:block; }
+
+
+ #hidtores{display: none;}
+    }
+
+
+    #imgmodel{
+        width: 80%;
+        
+    }

@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Hospital.Models.Record>
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>latest Review </title>
+    <link rel="shortcut icon" type="image/png" href="~/Admin/assets/images/logos/favicon.png" />
+    <link rel="stylesheet" href="~/Admin/assets/css/styles.min.css" />
+</head>
+<body>
+    <p>
+        @*    <a asp-action="Create">Create New</a> *@
+    </p>
+    <div class="card">
+        <div class="container-fluid">
+        <div class="card">
+            <div class="card-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Diagnosis)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Prescriptions)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.PatientMedical)
+                            </th>
+                           
+                            
+
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Diagnosis)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Prescriptions)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.PatientMedical)
+                                </td>
+                            
+
+                                <td>
+                                     <a class="btn btn-success" asp-action="ret" asp-route-id="@item.PatId">Back Home</a> 
+                                
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+﻿@model Hospital.Models.Patient
+@{
+}
+<form action="AddPat" method="post">
+
+    <p class="card-text">
+        <input type="text" name="Fname" value="" placeholder="First name" />
+        <input type="text" name="Lname" value="" placeholder="Last name" />
+        <input type="text" name="Email" value="" placeholder="Email" />
+        <input type="text" name="Password" value="" placeholder="Password" />
+        <input type="submit" asp-action="AddPat" value="Add" />
+
+
+    </p>
+</form>

@@ -1,0 +1,39 @@
+﻿
+@{
+    Layout = "~/Views/Shared/Admin/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SearchEmp</title>
+    <link rel="shortcut icon" type="image/png" href="~/Admin/assets/images/logos/favicon.png" />
+    <link rel="stylesheet" href="~/Admin/assets/css/styles.min.css" />
+</head>
+<body> 
+    <div class="container-fluid">
+        <div class="card bg-dark">
+            <div class="card-body">
+        <form asp-action="SearchEmpp">
+            <input type="text" name="Fname" value="" placeholder="First name" />
+            <input type="text" name="Lname" value=""  placeholder="Last name"/>
+            <label for="JopType">Choose a joptype:</label>
+            <select name="JopType" id="cars">
+                <option name="JopType">Doctor</option>
+                <option name="JopType">Patient</option>
+                <option name="JopType">Receptionist</option>
+                <option name="JopType">Nurse</option>
+                <option name="JopType">Administrator</option>
+                <option name="JopType">other</option>
+            </select>
+            <input type="submit" class="btn btn-primary" value="Get info" />
+
+   </form>
+   </div>
+   </div>
+   </div>
+   
+</body>
+</html> 

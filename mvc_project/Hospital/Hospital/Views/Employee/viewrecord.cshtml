@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Hospital.Models.Record>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SearchEmp</title>
+    <link rel="shortcut icon" type="image/png" href="~/Admin/assets/images/logos/favicon.png" />
+    <link rel="stylesheet" href="~/Admin/assets/css/styles.min.css" />
+</head>
+<body>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Diagnosis)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TreatmentPlans)
+                </th>
+
+                <th>
+                    @Html.DisplayNameFor(model => model.TestResults)
+                </th>
+
+               
+
+                <th></th>
+            </tr>
+        </thead>
+        <div class="container-fluid">
+            <div class="card ">
+                <div class="card-body">
+        <tbody>
+
+  @foreach (var item in Model)
+  {
+                <tr>
+                    <td>
+                                    @Html.DisplayFor(modelItem => item.Diagnosis)
+                    </td>
+                    <td>
+                        <img src="~/imge_treatment_plans/@item.TreatmentPlans" alt="Alternate Text" />
+                                    
+                    </td>
+
+                    <td>
+                                    @Html.DisplayFor(modelItem => item.TestResults)
+                    </td>
+
+                    
+
+                    <td>
+                        <a asp-action="updatetreatment" class="btn btn-primary" asp-route-id="@item.PatId">Update treatment </a>
+                    </td>
+                </tr>
+ }
+            
+
+        </tbody>
+        </div>
+        </div>
+        </div>
+    </table>
+    <a asp-action="Doctorr" class="btn btn-primary">Home</a>
+</body>
+</html>

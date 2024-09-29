@@ -1,0 +1,85 @@
+﻿
+@{
+	Layout = "";
+	
+}
+
+	<!DOCTYPE html>
+	<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, 
+								initial-scale=1.0" />
+	
+	 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;900&display=swap" rel="stylesheet">
+	 <link href="~/Login/notf.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/4b9ba14b0f.js" crossorigin="anonymous"></script>
+	
+		<title>Not Faund</title>
+	</head>
+
+	<body>
+		  <div class="mainbox">
+    <div class="err">4</div>
+    <i class="far fa-question-circle fa-spin"></i>
+    <div class="err2">4</div>
+    <div class="msg">
+		
+			@{
+							@*if employee*@
+							string type=ViewBag.type;
+							if (type != "Patient")
+							{
+
+								<form method="post" asp-action="Index">
+
+									<p class="display-4">You not employee pleass Register</p>
+
+
+									<button type="submit">GO</button
+
+								</form>
+							}
+
+
+							@*if pation*@
+							else
+							{
+
+								<form method="post" asp-action="Index">
+
+					            	<p class="display-4">You not Pation  pleass Register</p>
+
+
+						       <button  type="submit" class="btn btn-dark">GO</button>
+				      	
+
+				                 	</form>
+
+
+							}
+							}
+		<p>Let's go <a asp-action="Index">home</a> and try from there.</p>
+		</div>
+      </div>
+	</body>
+
+	</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

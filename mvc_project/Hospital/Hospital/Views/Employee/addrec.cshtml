@@ -1,0 +1,11 @@
+﻿@model Hospital.Models.Record
+@{
+}
+
+<form action="saveupdat" method="post">
+    <input type="text" name="pv" value="" placeholder="patient vitals" />
+    <input type="text" name="me" value="" placeholder="medications" />
+    <input type="text" name="tr" value="" placeholder="treatment administere" />
+    <input type="submit" asp-action="saveupdat" value="Update" asp-route-id="@Model.Rid" />
+    
+</form>

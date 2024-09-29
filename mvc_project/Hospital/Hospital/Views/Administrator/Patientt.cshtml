@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Hospital.Models.Patient>
+
+@{
+    Layout = "~/Views/Shared/Admin/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>latest Review </title>
+    <link rel="shortcut icon" type="image/png" href="~/Admin/assets/images/logos/favicon.png" />
+    <link rel="stylesheet" href="~/Admin/assets/css/styles.min.css" />
+</head>
+<body>
+<p>
+ @*    <a asp-action="Create">Create New</a> *@
+</p>
+    <div class="container-fluid">
+        <div class="card">
+            <div class="card-body">
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Fname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Lname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Passward)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Enaple)
+            </th>
+          
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Lname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Passward)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Enaple)
+            </td>
+      
+            <td>
+                <a class="btn btn-success" asp-action="consentpat" asp-route-id="@item.PatId">consent</a> |
+               <a class="btn btn-danger"  asp-action="rejectpat" asp-route-id="@item.PatId">reject</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>
+</div>
+    </div>
+
+</body>
+</html>
